@@ -1,6 +1,8 @@
 FROM ubuntu:latest
 MAINTAINER Gaurav Juvekar <gauravjuvekar@gmail.com>
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update && apt-get install -y \
 	software-properties-common \
 	git \
