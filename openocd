@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "Fake openocd called with arguments"
+echo $@
+echo "Exiting with success"
+exit 0
